@@ -1,0 +1,72 @@
+body {
+  background-color: hsl(216, 12%, 8%);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background: hsl(213, 19%, 18%);
+  width: 320px;
+  height: 320px;
+  margin: 220px auto;
+  border-radius: 20px;
+}
+.image {
+  width: 25px;
+  height: 25px;
+  background-color: hsl(216, 12%, 54%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper {
+  padding: 15px 30px;
+}
+h2 {
+  color: white;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: hsl(216, 12%, 54%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  color: hsl(217, 12%, 63%);
+  transition: all 0.3s;
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.one:hover,
+.two:hover,
+.three:hover,
+.four:hover,
+.five:hover {
+  background-color: orange;
+  color: white;
+}
+button {
+  padding: 10px 100px;
+  color: white;
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+  transition: all 0.3s;
+}
+button:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
